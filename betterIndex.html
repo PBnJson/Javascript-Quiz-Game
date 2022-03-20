@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Quiz Game</title>
+</head>
+<!-- class created to change color when clicking right/wrong answers. -->
+
+<body class="">
+    <div class="quiz">
+        <div class="quizContainer">
+            <div id="questions"></div>
+            <div id="answers" class="btnLayout">
+                <!-- <button class="" id="answerChoiceA">A: Lorem ipsum dolor sit amet.</button>
+                <button class="" id="answerChoiceB">B: Lorem ipsum dolor sit amet.</button>
+                <button class="" id="answerChoiceC">C: Lorem ipsum dolor sit amet.</button>
+                <button class="" id="answerChoiceD">D: Lorem ipsum dolor sit amet.</button> -->
+            </div>
+        </div>
+        <span id="count">60</span>
+        <div class="btnControls">
+            <button id="start" class="start-btn btn">START</button>
+            <button id="next" class="next-btn btn">NEXT</button>
+        </div>
+    </div>
+
+    <div class="scoreboard hide">
+        <h1>Your Score Is:<span id="userScore">0</span></h1>
+        <form>
+            <label class="label" for="initials">Enter Initials:</label>
+            <input id="username" type="text">
+            <button id="submitBtn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

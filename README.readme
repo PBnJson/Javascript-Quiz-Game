@@ -1,0 +1,27 @@
+JAVASCRIPT QUIZ GAME
+-The client wanted a quiz game that would do the following:
+    - Have a start button
+        -This was created in HTML and referenced in Javascript by getElementById.  After
+        game starts the START button hides.  Unhidden the multiple presses on the START button
+        will start mulitple timers, breaking the program.
+        
+    - A timer starts when the start button is clicked the timer and related functionality
+    begin on line 79-104.
+
+    - A question with answer choices is presented.  Related functionality, lines 
+    25-76 and 109-128.
+
+    - Upon answering NEXT button must be pressed to move on to the next question. Lines 138-148.
+
+    - Correct answers turn the screen 'green', incorrect answers turn the screen
+    'red.' This functionality is on 186-198.
+
+    - Correct answers give 10 points.  Incorrect answers decrement the clock.
+    Also on lines 186-198.
+
+    - Timer reaches 0, the Game is Over.  If questions a remaining they must be answered
+    but the points do not count toward the total. line 100. Not what I want but This
+    still falls within the objective parameters.
+
+    - Reaching the end of the game, put initials/whatever and score is saved to local
+    storage.
